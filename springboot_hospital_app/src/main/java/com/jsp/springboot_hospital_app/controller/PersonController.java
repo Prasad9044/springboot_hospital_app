@@ -56,5 +56,4 @@ public class PersonController {
 	public ResponseEntity<ResponseStructure<Person>> getPerson(@RequestParam int id) {
 		return service.getPersonById(id);
 	}
-
 }
